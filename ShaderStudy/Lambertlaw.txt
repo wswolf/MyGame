@@ -1,0 +1,15 @@
+Lambert law
+C-diffuse = (C-light * M-diffuse)max(0,n*l);
+half-Lambert
+C-diffuse = (C-light * M-diffuse)(alpha(n*l)+beta)
+
+Phong
+r = 2(n*l)n-l
+C-specular = (C-light*M-specular)Pow(max(0,v*r),M-gloss)
+Blinn
+h = (v+l)/|v+l|
+C-specular = (C-light*M-specular)Pow(max(0,n*h),M-gloss)
+
+C-emissive = M-emissive
+
+C-ambient = G-ambient
