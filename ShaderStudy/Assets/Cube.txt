@@ -1,0 +1,10 @@
+refract
+
+Snell law
+n-1 sin-1 = n-2 sin 2
+n-1 n-2为折射率
+
+菲涅儿反射
+Fresnel reflection
+F-schlick = F0 +(1-F0)Pow((1-v.n),5)
+F-empricial = max(0,min(1,bisa+scale * Pow(1-v.n,power)))
