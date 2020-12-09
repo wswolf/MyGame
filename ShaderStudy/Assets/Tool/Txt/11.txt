@@ -1,0 +1,14 @@
+Lambertlaw
+C-ambient = G-ambient
+C-emissive = M-emissive
+C-diffcuse = C-light*M-diffcuse*Max(0,n*l)
+C-specular
+Phong
+r = 2(n*l)*n-l
+C-specular = C-light*M-specular*Pow(Max(0,v*r),m-gloss)
+Blin
+h = n+l/|n+l|
+C-specular =C-light*M-specular*Pow(Max(0,n*h),m-gloss)
+
+half-lambert
+C-diffcuse =C-light*M-diffcuse*(alpha*(n*l)+beta)
