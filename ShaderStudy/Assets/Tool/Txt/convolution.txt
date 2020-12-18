@@ -1,0 +1,28 @@
+convolution
+
+边缘检测:
+kernel
+Roberts
+Gx= -1 0
+     0 1
+Gy= 0 -1
+    1  0
+
+Prewitt
+Gx= -1 0 1
+    -1 0 1
+    -1 0 1
+Gy= -1 -1 -1
+	 0  0  0
+	 1  1  1
+
+Sobel
+Gx= -1 0 1
+    -2 0 2
+    -1 0 1
+Gy= -1 -2 -1
+	 0  0  0
+	 1  2  1
+高斯模糊
+高斯核
+G(x,y)=1/(2*PI*Pow(thea,2) * Pow(e,-(x2+y2)/(2*Pow(thea,2)))
