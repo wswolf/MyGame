@@ -1,0 +1,11 @@
+重建世界坐标系：
+worldPos = _worldSpaceCameraPos + linearDepth*interpolatedRay
+
+fog = f*fogCol + (1-f)origCol
+
+linear
+f = dmax -|z| / dmax - dmin
+Exponential
+pow(e,-d*|z|)
+Exponential squared
+pow(e,-(d-|z|)2)
