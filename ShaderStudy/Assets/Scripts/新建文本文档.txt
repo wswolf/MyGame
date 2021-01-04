@@ -11,3 +11,4 @@ github.com.cnpmjs.org
 
 https://github.com.cnpmjs.org/wswolf/MyGame.git
 git@github.com.cnpmjs.org:wswolf/MyGame.git
+https://hub.fastgit.org

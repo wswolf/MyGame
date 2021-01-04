@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-		_EdgeOnly("EdgeOnly",Float) = 1.0
+		[HideInInspector]_EdgeOnly("EdgeOnly",Float) = 1.0
 		_EdgeColor("Edge Color",Color) = (1,1,1,1)
 		_bgColor("Background Color",Color) = (0,0,0,1)
 	}
