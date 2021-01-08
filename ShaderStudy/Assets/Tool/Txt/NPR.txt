@@ -1,0 +1,4 @@
+轮廓线
+高光
+
+step(threshold,dst) 等价于 lerp(0,1,smoothstep(-w,w,dst-threshold))
